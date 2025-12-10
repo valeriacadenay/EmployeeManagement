@@ -1,6 +1,3 @@
 namespace Management.Domain.Shared.Errors;
 
-public class DomainException
-{
-    
-}
+public class DomainException : Exception { public DomainException(string m) : base(m) {} }

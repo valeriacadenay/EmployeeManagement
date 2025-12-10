@@ -1,6 +1,3 @@
 namespace Management.Domain.Shared.Errors;
 
-public class NotFoundException
-{
-    
-}
+public class NotFoundException : DomainException { public NotFoundException(string m) : base(m) {} }
